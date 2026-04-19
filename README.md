@@ -1,13 +1,24 @@
-# GitHub Codespaces ♥️ Next.js
+# Yonadik Next Frontend
 
-Welcome to your shiny new Codespace running Next.js! We've got everything fired up and running for you to explore Next.js.
+Story 002 baseline is implemented in this repo:
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+- centralized API client in `lib/api/client.js`
+- typed adapters in `lib/api/web.js`
+- zod schemas in `lib/schemas/*`
+- contract-driven SSR example on `pages/index.js`
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Required env vars
 
-To run this application:
+Copy `.env.example` to `.env.local` and set:
 
-```
+- `NEXT_PUBLIC_SITE_URL`
+- `NEXT_PUBLIC_WP_BASE_URL`
+- `WP_API_BASE_URL`
+- `WP_MEDIA_BASE_URL`
+
+## Run
+
+```bash
+npm install
 npm run dev
 ```
