@@ -11,6 +11,11 @@ Story 004 baseline is implemented in this repo:
   - `pages/dealers-accident.js`
 - canonical dealer profile route:
   - `pages/dealer-profile/[slugOrId].js` (slug canonical, id redirects to slug)
+- SEO policy endpoints:
+  - `pages/robots.txt.js`
+  - `pages/sitemap.xml.js`
+- deployment checklist:
+  - `docs/deployment-checklist.md`
 
 ## Required env vars
 
