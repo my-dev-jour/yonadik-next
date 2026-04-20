@@ -9,6 +9,8 @@ Story 004 baseline is implemented in this repo:
 - canonical dealers directories:
   - `pages/dealers-used-cars.js`
   - `pages/dealers-accident.js`
+- canonical dealer profile route:
+  - `pages/dealer-profile/[slugOrId].js` (slug canonical, id redirects to slug)
 
 ## Required env vars
 
